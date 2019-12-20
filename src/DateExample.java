@@ -14,5 +14,6 @@ public class DateExample {
         printDate(Locale.UK);
         printDate(Locale.US);
         printDate(Locale.FRANCE);
+        printDate(new Locale("vi"));
     }
 }

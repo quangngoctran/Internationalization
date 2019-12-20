@@ -14,5 +14,6 @@ public class NumberExample {
         printNumber(Locale.US);
         printNumber(Locale.FRANCE);
         printNumber(Locale.JAPAN);
+        printNumber(new Locale("vi"));
     }
 }

@@ -14,5 +14,6 @@ public class TimeExample {
         printTime(Locale.UK);
         printTime(Locale.US);
         printTime(Locale.FRANCE);
+        printTime(new Locale("vi"));
     }
 }

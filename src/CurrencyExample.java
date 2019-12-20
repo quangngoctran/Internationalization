@@ -13,5 +13,6 @@ public class CurrencyExample {
         printCurrency(Locale.UK);
         printCurrency(Locale.US);
         printCurrency(Locale.FRANCE);
+        printCurrency(new Locale("vi"));
     }
 }

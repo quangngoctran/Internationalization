@@ -6,7 +6,7 @@ public class LocaleExample2 {
         Locale frLocale = new Locale("fr", "FR");
         Locale esLocale = new Locale("es", "ES");
         System.out.println("English language name (default): " + enLocale.getDisplayLanguage());
-        System.out.println("English language name in French: " + enLocale.getDisplayLanguage(frLocale));
-        System.out.println("English language name in Spanish: " + enLocale.getDisplayLanguage(esLocale));
+        System.out.println("English language name in French: " + frLocale.getDisplayLanguage());
+        System.out.println("English language name in Spanish: " + esLocale.getDisplayLanguage());
     }
 }
